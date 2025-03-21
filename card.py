@@ -8,8 +8,6 @@ class Card():
 
     SPRITE_SIZES = (350, 350)
 
-    WHITE_COLOR = (255, 255, 255)
-
     def __init__(self, card_background: str, card_title: str, texts: list):
         self._card_background_path = self.CARD_BACKGROUND_PATH + card_background + ".png"
         self._card_title = card_title
