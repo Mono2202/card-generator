@@ -6,13 +6,15 @@ class Card():
     FONTS_PATH = "..\\resources\\fonts\\"
     OUTPUT_PATH = "..\\output\\"
 
+    PNG_FILE_EXTENSION = ".png"
+
     SPRITE_SIZES = (350, 350)
 
     def __init__(self, card_background: str, card_title: str, texts: list):
-        self._card_background_path = self.CARD_BACKGROUND_PATH + card_background + ".png"
+        self._card_background_path = self.CARD_BACKGROUND_PATH + card_background + self.PNG_FILE_EXTENSION
         self._card_title = card_title
-        self._card_sprite_path = self.SPRITES_PATH + self._card_title.lower() + ".png"
-        self._output_path = self.OUTPUT_PATH + self._card_title.lower() + ".png"
+        self._card_sprite_path = self.SPRITES_PATH + self._card_title.lower() + self.PNG_FILE_EXTENSION
+        self._output_path = self.OUTPUT_PATH + self._card_title.lower() + self.PNG_FILE_EXTENSION
         self._texts = texts
 
     def create_card(self):

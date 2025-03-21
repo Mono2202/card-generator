@@ -4,9 +4,11 @@ import textwrap
 class Text():
     FONTS_PATH = "..\\resources\\fonts\\"
 
+    FONT_FILE_EXTENSION = ".ttf"
+
     def __init__(self, text: str, font: str, color: tuple, size: int, position_percent: tuple):
         self._text = text
-        self._font_path = self.FONTS_PATH + font + ".ttf"
+        self._font_path = self.FONTS_PATH + font + self.FONT_FILE_EXTENSION
         self._color = color
         self._size = size
         self._position_percent = position_percent
