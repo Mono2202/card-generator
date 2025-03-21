@@ -2,7 +2,7 @@ from PIL import ImageFont
 import textwrap
 
 class Text():
-    FONTS_PATH = "resources\\fonts\\"
+    FONTS_PATH = "..\\resources\\fonts\\"
 
     def __init__(self, text: str, font: str, color: tuple, size: int, position_percent: tuple):
         self._text = text
