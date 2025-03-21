@@ -1,4 +1,5 @@
 from PIL import ImageFont
+import textwrap
 
 class Text():
     FONTS_PATH = "resources\\fonts\\"
@@ -17,8 +18,11 @@ class Text():
         try:
             text_font = ImageFont.truetype(self._font_path, self._size)
         except IOError:
-            text_font - ImageFont.load_default()
-        
+            text_font = ImageFont.load_default()
+
+        # lines = textwrap.wrap(self._text, width=20)
+        # print(lines)
+        # for line in lines:
         text_width = draw_ctx.textlength(self._text, font=text_font)
         text_position = ((image_size[0] - text_width) * self._position_percent[0], image_size[1] * self._position_percent[1])
         draw_ctx.text(text_position, self._text, fill=self._color, font=text_font)
