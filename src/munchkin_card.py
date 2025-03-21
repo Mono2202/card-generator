@@ -2,7 +2,7 @@ from card import Card
 from text import Text
 
 class MunchkinCard(Card):
-    MUNCHKING_CARD = "munchkin"
+    MUNCHKIN_CARD = "munchkin"
 
     TITLE_FONT = "Quasimodo"
     BODY_FONT = "CaslonAntique"
@@ -50,4 +50,4 @@ class MunchkinCard(Card):
             position_percent=(0.9, 0.9)
         ))
 
-        super().__init__(card_background=self.MUNCHKING_CARD, card_title=card_title, texts=texts)
+        super().__init__(card_background=self.MUNCHKIN_CARD, card_title=card_title, texts=texts)
