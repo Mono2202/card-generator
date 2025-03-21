@@ -8,7 +8,7 @@ class Card():
 
     PNG_FILE_EXTENSION = ".png"
 
-    SPRITE_SIZES = (250, 250)
+    SPRITE_SIZES = (500, 500)
 
     def __init__(self, card_background: str, card_title: str, texts: list):
         self._card_background_path = self.CARD_BACKGROUND_PATH + card_background + self.PNG_FILE_EXTENSION
