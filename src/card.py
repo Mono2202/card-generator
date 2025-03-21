@@ -23,7 +23,7 @@ class Card():
         sprite_image = Image.open(self._card_sprite_path)
         sprite_image.thumbnail(self.SPRITE_SIZES)
 
-        sprite_image_pos = ((card_background_image.width - sprite_image.width) // 2, (card_background_image.height - sprite_image.height) // 2)
+        sprite_image_pos = ((card_background_image.width - sprite_image.width) // 2, -50)
         card_background_image.paste(sprite_image, sprite_image_pos, sprite_image.convert("RGBA"))
 
         card_draw_ctx = ImageDraw.Draw(card_background_image)

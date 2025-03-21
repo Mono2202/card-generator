@@ -8,14 +8,22 @@ class MunchkinCard(Card):
     BODY_FONT = "CaslonAntique"
     FONT_COLOR = (67, 27, 21)
 
-    def __init__(self, card_title: str, description_text: str, ally: int, coins: int):
+    def __init__(self, card_title: str, bonus: int, description_text: str, ally: int, coins: int):
         texts = []
+        texts.append(Text(
+            text=f"+{bonus} Bonus",
+            font=self.TITLE_FONT,
+            color=self.FONT_COLOR,
+            size=17,
+            position_percent=(0.5, 0.07)
+        ))
+
         texts.append(Text(
             text=card_title,
             font=self.TITLE_FONT,
             color=self.FONT_COLOR,
             size=30,
-            position_percent=(0.5, 0.1)
+            position_percent=(0.5, 0.13)
         ))
 
         texts.append(Text(
@@ -23,7 +31,7 @@ class MunchkinCard(Card):
             font=self.BODY_FONT,
             color=self.FONT_COLOR,
             size=20,
-            position_percent=(0.35, 0.6)
+            position_percent=(0.35, 0.60)
         ))
 
         texts.append(Text(
