@@ -1,10 +1,10 @@
 from PIL import Image, ImageDraw
 
 class Card():
-    CARD_BACKGROUND_PATH = "resources\\cards\\"
-    SPRITES_PATH = "resources\\sprites\\" 
-    FONTS_PATH = "resources\\fonts\\"
-    OUTPUT_PATH = "output\\"
+    CARD_BACKGROUND_PATH = "..\\resources\\cards\\"
+    SPRITES_PATH = "..\\resources\\sprites\\" 
+    FONTS_PATH = "..\\resources\\fonts\\"
+    OUTPUT_PATH = "..\\output\\"
 
     SPRITE_SIZES = (350, 350)
 
