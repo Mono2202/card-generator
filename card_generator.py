@@ -12,12 +12,12 @@ def main():
         position_percent=(0.5, 0.1)
     )
 
-    title_text2 = Text(
+    body_text = Text(
         text="Bulbasaur ligma sigma skibidi fortnite chamba",
-        font="Quasimodo",
+        font="CaslonAntique",
         color=TITLE_COLOR,
-        size=15,
-        position_percent=(0.1, 0.6)
+        size=25,
+        position_percent=(0.3, 0.6)
     )
 
     ally_text = Text(
@@ -39,7 +39,7 @@ def main():
     munchkin_card = Card(
         card_background="munchkin",
         card_title="Bulbasaur",
-        texts=[title_text, title_text2, ally_text, coin_text]
+        texts=[title_text, body_text, ally_text, coin_text]
     )
 
     munchkin_card.create_card()
