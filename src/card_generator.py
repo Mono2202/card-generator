@@ -1,5 +1,4 @@
-from munchking_card import MunchkinCard
-
+from munchkin_card import MunchkinCard
 
 def main():
     munchkin_card = MunchkinCard(

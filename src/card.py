@@ -8,7 +8,7 @@ class Card():
 
     PNG_FILE_EXTENSION = ".png"
 
-    SPRITE_SIZES = (350, 350)
+    SPRITE_SIZES = (425, 425)
 
     def __init__(self, card_background: str, card_title: str, texts: list):
         self._card_background_path = self.CARD_BACKGROUND_PATH + card_background + self.PNG_FILE_EXTENSION
@@ -23,7 +23,7 @@ class Card():
         sprite_image = Image.open(self._card_sprite_path)
         sprite_image.thumbnail(self.SPRITE_SIZES)
 
-        sprite_image_pos = ((card_background_image.width - sprite_image.width) // 2, -50)
+        sprite_image_pos = ((card_background_image.width - sprite_image.width) // 2, 90)
         card_background_image.paste(sprite_image, sprite_image_pos, sprite_image.convert("RGBA"))
 
         card_draw_ctx = ImageDraw.Draw(card_background_image)
