@@ -1,4 +1,4 @@
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw
 
 class Card():
     CARD_BACKGROUND_PATH = "resources\\cards\\"
@@ -9,15 +9,13 @@ class Card():
     SPRITE_SIZES = (350, 350)
 
     WHITE_COLOR = (255, 255, 255)
-    TITLE_COLOR = (67, 27, 21)
 
-    def __init__(self, card_background: str, card_title: str, title_font: str, text_font: str):
+    def __init__(self, card_background: str, card_title: str, texts: list):
         self._card_background_path = self.CARD_BACKGROUND_PATH + card_background + ".png"
         self._card_title = card_title
         self._card_sprite_path = self.SPRITES_PATH + self._card_title.lower() + ".png"
         self._output_path = self.OUTPUT_PATH + self._card_title.lower() + ".png"
-        self._title_font_path = self.FONTS_PATH + title_font + ".ttf"
-        self._text_font_path = self.FONTS_PATH + text_font + ".ttf"
+        self._texts = texts
 
     def create_card(self):
         card_background_image = Image.open(self._card_background_path)
@@ -30,14 +28,7 @@ class Card():
 
         card_draw_ctx = ImageDraw.Draw(card_background_image)
 
-        title_font_color = self.TITLE_COLOR
-        try:
-            title_font = ImageFont.truetype(self._title_font_path, 30)
-        except IOError:
-            title_font = ImageFont.load_default()
-        
-        text_width = card_draw_ctx.textlength(self._card_title, font=title_font)
-        text_pos = ((card_background_image.width - text_width) // 2, 30)
-        card_draw_ctx.text(text_pos, self._card_title, fill=title_font_color, font=title_font)
+        for text in self._texts:
+            text.add_text_to_image(card_draw_ctx, card_background_image.size)
 
         card_background_image.save(self._output_path)
