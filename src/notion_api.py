@@ -7,6 +7,7 @@ class NotionAPI():
         "Notion-Version": "2022-06-28"
     }
     NOTION_GET_ALL_PAGES_DATABASE_URL = "https://api.notion.com/v1/databases/{database_id}/query"
+    NOTION_GET_PAGE_CONTENT_URL = "https://api.notion.com/v1/blocks/{page_id}/children"
 
     def __init__(self, notion_api_key: str):
         self._notion_api_key = notion_api_key
@@ -16,7 +17,6 @@ class NotionAPI():
         get_all_pages_database_url = self.NOTION_GET_ALL_PAGES_DATABASE_URL.format(database_id=database_id)
         all_pages = []
         payload = {
-            # "page_size": 1,
         }
 
         while True:
@@ -32,3 +32,12 @@ class NotionAPI():
             payload["start_cursor"] = data["next_cursor"]
 
         return all_pages
+    
+    def get_page_content(self, page_id: str):
+        response = requests.get(self.NOTION_GET_PAGE_CONTENT_URL.format(page_id=page_id), headers=self.NOTION_POST_HEADERS)
+        data = response.json()
+
+        if "results" in data:
+            return data["results"]
+        return None
+
