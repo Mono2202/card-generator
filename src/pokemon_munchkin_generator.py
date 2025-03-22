@@ -1,5 +1,5 @@
 from notion_api import NotionAPI
-from munchkin_card import MunchkinCard
+from pokemon_munchkin_card import PokemonMunchkinCard
 
 NOTION_API_KEY = "***REMOVED***"
 MUNCHKIN_DATABASE_ID = "1a37727e907e80b6ba2bf257adc9c682" # TODO: change to command line argument
@@ -30,7 +30,7 @@ def main():
     all_pages = api.get_all_pages_database(MUNCHKIN_DATABASE_ID)
 
     for page in all_pages:
-        munchkin_card = MunchkinCard(
+        munchkin_card = PokemonMunchkinCard(
             card_title = page["properties"]["Name"]["title"][0]["text"]["content"],
             bonus = page["properties"]["Bonus"]["number"],
             description_text = "a",
