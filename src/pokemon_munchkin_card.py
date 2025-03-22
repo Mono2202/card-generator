@@ -1,11 +1,15 @@
 from munchkin_card import MunchkinCard
 from sprite import Sprite
+from text import Text
 
 
 class PokemonMunchkinCard(MunchkinCard):
     MUNCHKIN_POKEMON_TYPE = "types\\Pokemon_Type_Icon_{pokemon_type}"
 
-    def __init__(self, card_title: str, bonus: int, description_text: str, ally: int, coins: int, types: list):
+    BODY_FONT = "CaslonAntique"
+    FONT_COLOR = (67, 27, 21)
+
+    def __init__(self, card_title: str, bonus: int, description_blocks: list, ally: int, coins: int, types: list, dex_number: int):
         if len(types) == 1:
             x_position_percent = 0.5
             offset = 0
@@ -22,12 +26,27 @@ class PokemonMunchkinCard(MunchkinCard):
             ))
             x_position_percent += offset
         
+        texts = [
+            Text(
+                text=f"#{dex_number}",
+                font=self.BODY_FONT,
+                color=self.FONT_COLOR,
+                size=30,
+                position_percent=(0.1, 0.05)
+            )
+        ]
+
+        description_all = ""
+        for block in description_blocks:
+            description_all += "• " + block["bulleted_list_item"]["rich_text"][0]["plain_text"] + "                                        "
+
         super().__init__(
             card_title=card_title,
             bonus=bonus,
-            description_text=description_text,
+            description_text=description_all,
             bottom_left_text=f"{ally} Ally",
             bottom_right_text=f"{coins} Coins",
-            additional_sprites=sprites
+            additional_sprites=sprites,
+            additional_texts=texts
         )
          

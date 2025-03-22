@@ -5,12 +5,13 @@ from sprite import Sprite
 class MunchkinCard(Card):
     MUNCHKIN_CARD = "munchkin"
 
+    # TODO: move to global data class?
     TITLE_FONT = "Quasimodo"
     BODY_FONT = "CaslonAntique"
     FONT_COLOR = (67, 27, 21)
 
-    def __init__(self, card_title: str, bonus: int, description_text: str, bottom_left_text: str, bottom_right_text: str, additional_sprites: list):
-        texts = []
+    def __init__(self, card_title: str, bonus: int, description_text: str, bottom_left_text: str, bottom_right_text: str, additional_sprites: list, additional_texts: list):
+        texts = additional_texts 
         texts.append(Text(
             text=f"+{bonus} Bonus",
             font=self.TITLE_FONT,
@@ -32,7 +33,7 @@ class MunchkinCard(Card):
             font=self.BODY_FONT,
             color=self.FONT_COLOR,
             size=40,
-            position_percent=(0.35, 0.60)
+            position_percent=(0.35, 0.55)
         ))
 
         texts.append(Text(
