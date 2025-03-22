@@ -23,7 +23,7 @@ class Text():
 
         lines = textwrap.wrap(self._text, width=25)
         text_width = draw_ctx.textlength(lines[0], font=text_font)
-        fixed_position = ((image_size[0] - text_width) * self._position_percent[0], image_size[1] * self._position_percent[1])
+        fixed_position = (int((image_size[0] - text_width) * self._position_percent[0]), int(image_size[1] * self._position_percent[1]))
         for line in lines:
             draw_ctx.text(fixed_position, line, fill=self._color, font=text_font)
             fixed_position = (fixed_position[0], fixed_position[1] + self._size)

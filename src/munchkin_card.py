@@ -1,5 +1,6 @@
 from card import Card
 from text import Text
+from sprite import Sprite
 
 class MunchkinCard(Card):
     MUNCHKIN_CARD = "munchkin"
@@ -50,4 +51,9 @@ class MunchkinCard(Card):
             position_percent=(0.9, 0.9)
         ))
 
-        super().__init__(card_background=self.MUNCHKIN_CARD, card_title=card_title, texts=texts)
+        sprites = [Sprite(
+            sprite=card_title,
+            size=(425, 425),
+            position_percent=(0.5, 0.1)
+        )]
+        super().__init__(card_background=self.MUNCHKIN_CARD, output_name=card_title, texts=texts, sprites=sprites)
