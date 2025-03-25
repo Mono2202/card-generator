@@ -37,8 +37,14 @@ class PokemonMunchkinCard(MunchkinCard):
         ]
 
         description_all = ""
-        for block in description_blocks:
-            description_all += "• " + block["bulleted_list_item"]["rich_text"][0]["plain_text"] + "                                        "
+        if description_blocks == []:
+            description_all = "aaa"
+        else:
+            for block in description_blocks:
+                try:
+                    description_all += "•" + block["bulleted_list_item"]["rich_text"][0]["plain_text"] + "                                                    "
+                except Exception:
+                    ...
 
         super().__init__(
             card_title=card_title,
