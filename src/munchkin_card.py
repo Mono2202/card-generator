@@ -32,8 +32,8 @@ class MunchkinCard(Card):
             text=description_text,
             font=self.BODY_FONT,
             color=self.FONT_COLOR,
-            size=40,
-            position_percent=(0.35, 0.55)
+            size=30,
+            position_percent=(30, 0.55)
         ))
 
         texts.append(Text(

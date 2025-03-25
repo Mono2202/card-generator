@@ -6,13 +6,12 @@ class Text():
 
     FONT_FILE_EXTENSION = ".ttf"
 
-    def __init__(self, text: str, font: str, color: tuple, size: int, position_percent: tuple, fixed_position: tuple = None):
+    def __init__(self, text: str, font: str, color: tuple, size: int, position_percent: tuple):
         self._text = text
         self._font_path = self.FONTS_PATH + font + self.FONT_FILE_EXTENSION
         self._color = color
         self._size = size
         self._position_percent = position_percent
-        self._fixed_position = fixed_position
 
     def add_text_to_image(self, draw_ctx, image_size: tuple):
         try:
@@ -21,9 +20,19 @@ class Text():
             text_font = ImageFont.load_default()
 
         # TODO: width should be an input
-        lines = textwrap.wrap(self._text, width=27)
+        lines = textwrap.wrap(self._text, width=42)
         text_width = draw_ctx.textlength(lines[0], font=text_font)
-        fixed_position = (int((image_size[0] - text_width) * self._position_percent[0]), int(image_size[1] * self._position_percent[1]))
+
+        if self._position_percent[0] < 1:
+            fixed_position_x = int((image_size[0] - text_width) * self._position_percent[0])
+        else:
+            fixed_position_x = self._position_percent[0]
+        if self._position_percent[1] < 1:
+            fixed_position_y = int(image_size[1] * self._position_percent[1])
+        else:
+            fixed_position_y = self._position_percent[1]
+        fixed_position = (fixed_position_x, fixed_position_y)
+
         for line in lines:
             draw_ctx.text(fixed_position, line, fill=self._color, font=text_font)
             fixed_position = (fixed_position[0], fixed_position[1] + self._size)
