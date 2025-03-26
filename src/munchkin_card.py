@@ -33,7 +33,7 @@ class MunchkinCard(Card):
             font=self.BODY_FONT,
             color=self.FONT_COLOR,
             size=30,
-            position_percent=(30, 0.55)
+            position_percent=(28, 0.5)
         ))
 
         texts.append(Text(
@@ -56,7 +56,7 @@ class MunchkinCard(Card):
         sprites.append(Sprite(
             sprite=card_title,
             size=(425, 425),
-            position_percent=(0.5, 0.1)
+            position_percent=(0.5, 0.08)
         ))
         
         super().__init__(card_background=self.MUNCHKIN_CARD, output_name=card_title, texts=texts, sprites=sprites)
