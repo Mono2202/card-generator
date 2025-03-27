@@ -34,5 +34,10 @@ class Text():
         fixed_position = (fixed_position_x, fixed_position_y)
 
         for line in lines:
+            # title_index = line.find(": ")
+            # if title_index >= 0:
+            #     draw_ctx.text(fixed_position, line[:title_index + 1], fill=self._color, font=text_font, stroke_width=1, stroke_fill="black")
+            #     fixed_position = (fixed_position[0] + len(line[:title_index + 1]), fixed_position[1])
+            #     line = line[title_index + 1:]
             draw_ctx.text(fixed_position, line, fill=self._color, font=text_font)
             fixed_position = (fixed_position[0], fixed_position[1] + self._size)
