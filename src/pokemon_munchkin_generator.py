@@ -1,3 +1,5 @@
+import os.path
+
 from notion_api import NotionAPI
 from pokemon_munchkin_card import PokemonMunchkinCard
 
@@ -28,10 +30,14 @@ MUNCHKIN_POKEMON_TYPES = {
 def main():
     api = NotionAPI(NOTION_API_KEY)
     all_pages = api.get_all_pages_database(MUNCHKIN_DATABASE_ID)
-    # print(all_pages[0])
+    all_pages.reverse()
     for page in all_pages:
         page_properties = page["properties"]
+        if os.path.isfile("..\\output\\" + page_properties["Name"]["title"][0]["text"]["content"].lower() + ".png"):
+            continue
         page_content = api.get_page_content(page["id"])
+        if page_content == []:
+            return
 
         munchkin_card = PokemonMunchkinCard(
             card_title = page_properties["Name"]["title"][0]["text"]["content"],
@@ -43,7 +49,6 @@ def main():
             dex_number=page_properties["Dex Number"]["number"]
         )
         munchkin_card.create_card()
-        return
 
 if __name__ == "__main__":
     main()

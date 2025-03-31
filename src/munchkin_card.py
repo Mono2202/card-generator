@@ -28,12 +28,17 @@ class MunchkinCard(Card):
             position_percent=(0.5, 0.13)
         ))
 
+        if (len(description_text) > 360):
+            y_position = 0.5
+        else:
+            y_position = 0.6
+            
         texts.append(Text(
             text=description_text,
             font=self.BODY_FONT,
             color=self.FONT_COLOR,
-            size=40,
-            position_percent=(0.35, 0.55)
+            size=30,
+            position_percent=(28, y_position)
         ))
 
         texts.append(Text(
@@ -56,7 +61,7 @@ class MunchkinCard(Card):
         sprites.append(Sprite(
             sprite=card_title,
             size=(425, 425),
-            position_percent=(0.5, 0.1)
+            position_percent=(0.5, 0.08)
         ))
         
         super().__init__(card_background=self.MUNCHKIN_CARD, output_name=card_title, texts=texts, sprites=sprites)
