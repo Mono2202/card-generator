@@ -53,6 +53,7 @@ class PokemonMunchkinCard(MunchkinCard):
             bottom_left_text=f"{ally} Ally",
             bottom_right_text=f"{coins} Coins",
             additional_sprites=sprites,
-            additional_texts=texts
+            additional_texts=texts,
+            output_name=f"{str(dex_number).zfill(4)}_{card_title}"
         )
          
