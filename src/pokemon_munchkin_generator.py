@@ -41,7 +41,7 @@ def main():
 
         munchkin_card = PokemonMunchkinCard(
             card_title = page_properties["Name"]["title"][0]["text"]["content"],
-            bonus = page_properties["Bonus"]["number"],
+            bonus = page_properties["Bonus"]["formula"]["number"],
             description_blocks=page_content,
             ally = page_properties["Ally"]["number"],
             coins = page_properties["Coins"]["number"],

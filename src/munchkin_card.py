@@ -10,7 +10,7 @@ class MunchkinCard(Card):
     BODY_FONT = "CaslonAntique"
     FONT_COLOR = (67, 27, 21)
 
-    def __init__(self, card_title: str, bonus: int, description_text: str, bottom_left_text: str, bottom_right_text: str, additional_sprites: list, additional_texts: list):
+    def __init__(self, card_title: str, bonus: int, description_text: str, bottom_left_text: str, bottom_right_text: str, additional_sprites: list, additional_texts: list, output_name: str = ""):
         texts = additional_texts 
         texts.append(Text(
             text=f"+{bonus} Bonus",
@@ -64,4 +64,7 @@ class MunchkinCard(Card):
             position_percent=(0.5, 0.08)
         ))
         
-        super().__init__(card_background=self.MUNCHKIN_CARD, output_name=card_title, texts=texts, sprites=sprites)
+        if output_name == "":
+            output_name = card_title
+
+        super().__init__(card_background=self.MUNCHKIN_CARD, output_name=output_name, texts=texts, sprites=sprites)
