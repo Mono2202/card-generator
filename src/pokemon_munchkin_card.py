@@ -5,11 +5,12 @@ from text import Text
 
 class PokemonMunchkinCard(MunchkinCard):
     MUNCHKIN_POKEMON_TYPE = "types\\Pokemon_Type_Icon_{pokemon_type}"
+    MUNCHKIN_POKEMON_CAN_EVOLVE = "can_evolve\\arrow_2"
 
     BODY_FONT = "CaslonAntique"
     FONT_COLOR = (67, 27, 21)
 
-    def __init__(self, card_title: str, bonus: int, description_blocks: list, ally: int, coins: int, types: list, dex_number: int):
+    def __init__(self, card_title: str, bonus: int, description_blocks: list, ally: int, coins: int, types: list, dex_number: int, can_evolve: bool):
         if len(types) == 1:
             x_position_percent = 0.5
             offset = 0
@@ -25,6 +26,13 @@ class PokemonMunchkinCard(MunchkinCard):
                 position_percent=(x_position_percent, 0.885)
             ))
             x_position_percent += offset
+
+        if can_evolve:
+            sprites.append(Sprite(
+                sprite=self.MUNCHKIN_POKEMON_CAN_EVOLVE,
+                size=(50, 50),
+                position_percent=(0.9, 0.045)
+            ))
         
         texts = [
             Text(
