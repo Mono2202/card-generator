@@ -1,213 +1,213 @@
-name,can_evolve,bonus,dex_number,category,coins,ally,typing,description
-Bulbasaur,TRUE,0,1,Starter,250,1,"Poison, Grass","Starter Rivalry: If fighting alone, gain +3 bonus"
-Ivysaur,TRUE,1,2,Starter,500,2,"Poison, Grass","Starter Rivalry: If fighting alone, gain +3 bonus
+﻿name,stage,can_evolve,bonus,dex_number,category,coins,ally,typing,description
+Bulbasaur,1,TRUE,0,1,Starter,250,1,"Poison, Grass","Starter Rivalry: If fighting alone, gain +3 bonus"
+Ivysaur,2,TRUE,1,2,Starter,500,2,"Poison, Grass","Starter Rivalry: If fighting alone, gain +3 bonus
 Poison Powder: Roll 1d4. Weaken a monster by -x in combat"
-Venusaur,FALSE,2,3,Starter,1000,3,"Poison, Grass","Starter Rivalry: If fighting alone, gain +3 bonus
+Venusaur,3,FALSE,2,3,Starter,1000,3,"Poison, Grass","Starter Rivalry: If fighting alone, gain +3 bonus
 Poison Powder: Roll 1d4. Weaken a monster by -x in combat
-Chloroblast: Discard 1 treasure card to instantly defeat any monster with a bonus of 15 or lower. Can be used twice if it’s sunny outside [G]"
-Charmander,TRUE,0,4,Starter,250,1,Fire,"Starter Rivalry: If fighting alone, gain +3 bonus"
-Charmeleon,TRUE,1,5,Starter,500,2,Fire,"Starter Rivalry: If fighting alone, gain +3 bonus
+Chloroblast: Discard 1 treasure card to instantly defeat any monster with a bonus of 15 or lower. Can be used twice if it's sunny outside [G]"
+Charmander,1,TRUE,0,4,Starter,250,1,Fire,"Starter Rivalry: If fighting alone, gain +3 bonus"
+Charmeleon,2,TRUE,1,5,Starter,500,2,Fire,"Starter Rivalry: If fighting alone, gain +3 bonus
 Fire Fang: Roll 1d6. On a 5+, the monster loses -3 bonus"
-Charizard,FALSE,2,6,Starter,1337,3,"Fire, Flying","Starter Rivalry: If fighting alone, gain +3 bonus
+Charizard,3,FALSE,2,6,Starter,1337,3,"Fire, Flying","Starter Rivalry: If fighting alone, gain +3 bonus
 Fire Fang: Roll 1d6. On a 5+, the monster loses -3 bonus
 Flamethrower: Roll 1d6. On a 5+, the monster loses -6 bonus and is burnt"
-Squirtle,TRUE,0,7,Starter,250,1,Water,"Starter Rivalry: If fighting alone, gain +3 bonus"
-Wartortle,TRUE,1,8,Starter,500,2,Water,"Starter Rivalry: If fighting alone, gain +3 bonus
+Squirtle,1,TRUE,0,7,Starter,250,1,Water,"Starter Rivalry: If fighting alone, gain +3 bonus"
+Wartortle,2,TRUE,1,8,Starter,500,2,Water,"Starter Rivalry: If fighting alone, gain +3 bonus
 Aqua Tail: Roll 1d6. On a 4+, gain +3 bonus for that combat"
-Blastoise,FALSE,2,9,Starter,1000,3,Water,"Starter Rivalry: If fighting alone, gain +3 bonus
+Blastoise,3,FALSE,2,9,Starter,1000,3,Water,"Starter Rivalry: If fighting alone, gain +3 bonus
 Aqua Tail: Roll 1d6. On a 4+, gain +3 bonus for that combat
 Shell Smash: Discard 2 cards to gain +5 bonus for the current combat"
-Caterpie,TRUE,0,10,Regular,100,1,Bug,"String Shot: 1d6. On a 2, 4, or 6, the monster loses -3 bonus"
-Metapod,TRUE,0,11,Regular,250,1,Bug,"String Shot: 1d6. On a 2, 4, or 6, the monster loses -3 bonus
+Caterpie,1,TRUE,0,10,Regular,100,1,Bug,"String Shot: 1d6. On a 2, 4, or 6, the monster loses -3 bonus"
+Metapod,2,TRUE,0,11,Regular,250,1,Bug,"String Shot: 1d6. On a 2, 4, or 6, the monster loses -3 bonus
 Harden: When you fail to run from a monster, you may roll 1d6. On a 3+, you get half of the penalties rounded down"
-Butterfree,FALSE,1,12,Regular,500,2,"Bug, Flying","String Shot: 1d6. On a 2, 4, or 6, the monster loses -3 bonus
+Butterfree,3,FALSE,1,12,Regular,500,2,"Bug, Flying","String Shot: 1d6. On a 2, 4, or 6, the monster loses -3 bonus
 Harden: When you fail to run from a monster, you may roll 1d6. On a 3+, you get half of the penalties rounded down
 Compound Eyes: If you roll a die for any ability, you may roll twice and choose the better result"
-Weedle,TRUE,0,13,Regular,100,1,"Poison, Bug","String Shot: Roll 1d6. On a 4+, the Monster’s bonus is reduced by -2."
-Kakuna,TRUE,0,14,Regular,250,1,"Poison, Bug","String Shot: Roll 1d6. On a 4+, the Monster’s bonus is reduced by -2
+Weedle,1,TRUE,0,13,Regular,100,1,"Poison, Bug","String Shot: Roll 1d6. On a 4+, the Monster's bonus is reduced by -2."
+Kakuna,2,TRUE,0,14,Regular,250,1,"Poison, Bug","String Shot: Roll 1d6. On a 4+, the Monster's bonus is reduced by -2
 Harden: When you fail to run from a monster, you may roll 1d6. On a 4-, you get half of the penalties rounded down"
-Beedrill,FALSE,1,15,Regular,500,2,"Poison, Bug","String Shot: Roll 1d6. On a 4+, the Monster’s bonus is reduced by -2
+Beedrill,3,FALSE,1,15,Regular,500,2,"Poison, Bug","String Shot: Roll 1d6. On a 4+, the Monster's bonus is reduced by -2
 Harden: When you fail to run from a monster, you may roll 1d6. On a 4-, you get half of the penalties rounded down
-Swarm: Gain +5 bonus if you’re not the top 1 player"
-Pidgey,TRUE,0,16,Regular,200,1,"Normal, Flying","Frisk: Roll 1d6. On a 4+, look at someone’s hand and take a card of your choice"
-Pidgeotto,TRUE,1,17,Regular,450,2,"Normal, Flying","Frisk: Roll 1d6. On a 4+, look at someone’s hand and take a card of your choice
+Swarm: Gain +5 bonus if you're not the top 1 player"
+Pidgey,1,TRUE,0,16,Regular,200,1,"Normal, Flying","Frisk: Roll 1d6. On a 4+, look at someone's hand and take a card of your choice"
+Pidgeotto,2,TRUE,1,17,Regular,450,2,"Normal, Flying","Frisk: Roll 1d6. On a 4+, look at someone's hand and take a card of your choice
 Keen Eye: One of your rolls will get +2. You need to choose the roll beforehand"
-Pidgeot,FALSE,2,18,Regular,700,3,"Normal, Flying","Frisk: Roll 1d6. On a 4+, look at someone’s hand and take a card of your choice
+Pidgeot,3,FALSE,2,18,Regular,700,3,"Normal, Flying","Frisk: Roll 1d6. On a 4+, look at someone's hand and take a card of your choice
 Keen Eye: One of your rolls will get +2. You need to choose the roll beforehand
 Hurricane: End a battle [G]"
-Rattata,TRUE,0,19,Regular,100,1,Normal,"Ratatouille: Mmmmmm food… If there’s food on the table, eat some! Then, get +2 for the combat"
-Raticate,FALSE,1,20,Regular,400,2,Normal,"Ratatouille: Mmmmmm food… If there’s food on the table, eat some! Then, get +2 for the combat
+Rattata,1,TRUE,0,19,Regular,100,1,Normal,"Ratatouille: Mmmmmm food... If there's food on the table, eat some! Then, get +2 for the combat"
+Raticate,2,FALSE,1,20,Regular,400,2,Normal,"Ratatouille: Mmmmmm food... If there's food on the table, eat some! Then, get +2 for the combat
 Hyper Fang: Roll 1d6. On a 4+, gain +4 bonus for that combat"
-Spearow,TRUE,0,21,Regular,200,1,"Normal, Flying","Frisk: Roll 1d6. On a 4+, look at someone’s hand and take a card of your choice"
-Fearow,FALSE,1,22,Regular,700,2,"Normal, Flying","Frisk: Roll 1d6. On a 4+, look at someone’s hand and take a card of your choice
+Spearow,1,TRUE,0,21,Regular,200,1,"Normal, Flying","Frisk: Roll 1d6. On a 4+, look at someone's hand and take a card of your choice"
+Fearow,2,FALSE,1,22,Regular,700,2,"Normal, Flying","Frisk: Roll 1d6. On a 4+, look at someone's hand and take a card of your choice
 Fear Row: The row of people sitting in front of you are afraid of you :O They get -2 for the rest of the game"
-Ekans,TRUE,0,23,Regular,250,1,Poison,Shed Skin: Ignore level downs
-Arbok,FALSE,1,24,Regular,600,2,Poison,"Shed Skin: Ignore level downs
+Ekans,1,TRUE,0,23,Regular,250,1,Poison,Shed Skin: Ignore level downs
+Arbok,2,FALSE,1,24,Regular,600,2,Poison,"Shed Skin: Ignore level downs
 Wrap: Roll 1d100. On a 24-, a player cannot escape from a battle"
-Pikachu,TRUE,0,25,Regular,1000,1,Electric,Mascot: Pikachu! Pikachu! STFU SYBAU TS PMO… You get +3 bonus. The bonus will be lost if evolved.
-Raichu,FALSE,1,26,Regular,700,2,Electric,Zippy Zap: Roll 1d4. A player gets -x bonus for the combat
-Sandshrew,TRUE,0,27,Regular,200,1,Ground,"Sand Veil: Roll 1d10. On a 5+, escape from a monster. Can be used after trying to run away the regular way."
-Sandslash,FALSE,1,28,Regular,600,2,Ground,"Sand Veil: Roll 1d10. On a 5+, escape from a monster. Can be used after trying to run away the regular way.
+Pikachu,1,TRUE,0,25,Regular,1000,1,Electric,Mascot: Pikachu! Pikachu! STFU SYBAU TS PMO... You get +3 bonus. The bonus will be lost if evolved.
+Raichu,2,FALSE,1,26,Regular,700,2,Electric,Zippy Zap: Roll 1d4. A player gets -x bonus for the combat
+Sandshrew,1,TRUE,0,27,Regular,200,1,Ground,"Sand Veil: Roll 1d10. On a 5+, escape from a monster. Can be used after trying to run away the regular way."
+Sandslash,2,FALSE,1,28,Regular,600,2,Ground,"Sand Veil: Roll 1d10. On a 5+, escape from a monster. Can be used after trying to run away the regular way.
 Sand Slashing: Roll 1d4. Gain +x slashing bonus, add +1 to roll"
-Nidoran-F,TRUE,0,29,Regular,200,1,Poison,Rivalry: Only works with females
-Nidorina,TRUE,1,30,Regular,400,2,Poison,Rivalry: Only works with females
-Nidoqueen,FALSE,2,31,Regular,600,3,"Poison, Ground","Rivalry: Only works with females
+Nidoran-F,1,TRUE,0,29,Regular,200,1,Poison,Rivalry: Only works with females
+Nidorina,2,TRUE,1,30,Regular,400,2,Poison,Rivalry: Only works with females
+Nidoqueen,3,FALSE,2,31,Regular,600,3,"Poison, Ground","Rivalry: Only works with females
 Sisterhood: Take Nidoking into your hand (and you can use both Pokemon without extra Ally usage)"
-Nidoran-M,TRUE,0,32,Regular,200,1,Poison,Rivalry: Only works with males
-Nidorino,TRUE,1,33,Regular,400,2,Poison,Rivalry: Only works with males
-Nidoking,FALSE,2,34,Regular,600,3,"Poison, Ground","Rivalry: Only works with males
+Nidoran-M,1,TRUE,0,32,Regular,200,1,Poison,Rivalry: Only works with males
+Nidorino,2,TRUE,1,33,Regular,400,2,Poison,Rivalry: Only works with males
+Nidoking,3,FALSE,2,34,Regular,600,3,"Poison, Ground","Rivalry: Only works with males
 Brotherhood: Take Nidoqueen into your hand (and you can use both Pokemon without extra Ally usage)"
-Clefairy,TRUE,0,35,Regular,250,1,Fairy,"Metronome: Roll 1d6 and flip a coin. On tails, gain +x bonus. On heads, lose -x bonus"
-Clefable,FALSE,1,36,Regular,600,2,Fairy,"Metronome: Roll 1d10 and flip a coin. On tails, gain +x bonus. On heads, lose -x bonus"
-Vulpix,TRUE,0,37,Regular,250,1,Fire,Tales: Gain bonus equal to the amount of tails you have divided by 2
-Ninetales,FALSE,1,38,Regular,800,2,Fire,Tales: SANIC! Gain bonus equal to the amount of tails you have divided by 2
-Jigglypuff,TRUE,0,39,Regular,300,1,"Normal, Fairy","Sing: Roll 1d10. On a 6+, make a player unable to help for 3 rounds"
-Wigglytuff,FALSE,1,40,Regular,650,2,"Normal, Fairy","Sing: Roll 1d10. On a 6+, make a player unable to help for 3 rounds
+Clefairy,1,TRUE,0,35,Regular,250,1,Fairy,"Metronome: Roll 1d6 and flip a coin. On tails, gain +x bonus. On heads, lose -x bonus"
+Clefable,2,FALSE,1,36,Regular,600,2,Fairy,"Metronome: Roll 1d10 and flip a coin. On tails, gain +x bonus. On heads, lose -x bonus"
+Vulpix,1,TRUE,0,37,Regular,250,1,Fire,Tales: Gain bonus equal to the amount of tails you have divided by 2
+Ninetales,2,FALSE,1,38,Regular,800,2,Fire,Tales: SANIC! Gain bonus equal to the amount of tails you have divided by 2
+Jigglypuff,1,TRUE,0,39,Regular,300,1,"Normal, Fairy","Sing: Roll 1d10. On a 6+, make a player unable to help for 3 rounds"
+Wigglytuff,2,FALSE,1,40,Regular,650,2,"Normal, Fairy","Sing: Roll 1d10. On a 6+, make a player unable to help for 3 rounds
 Encore: On a win, roll 1d6. On a 3+, draw another treasure"
-Zubat,TRUE,0,41,Regular,150,1,"Poison, Flying","Supersonic: Roll 1d100. On a 73+, the monster gets confused, and 1/4 of it’s bonus is given to the player"
-Golbat,FALSE,1,42,Regular,350,2,"Poison, Flying","Supersonic: Roll 1d100. On a 73+, the monster gets confused, and 1/4 of it’s bonus is given to the player
-Hotel Transylvania: Blablabla… Suck the blood from a player… He loses -3 bonus for the rest of the game [G]"
-Oddish,TRUE,0,43,Regular,100,1,"Poison, Grass","Stun Spore: Roll 1d6. On a 5+, roll 1d6 to choose a player to help you"
-Gloom,TRUE,1,44,Regular,250,2,"Poison, Grass","Stun Spore: Roll 1d6. On a 5+, roll 1d6 to choose a player to help you
+Zubat,1,TRUE,0,41,Regular,150,1,"Poison, Flying","Supersonic: Roll 1d100. On a 73+, the monster gets confused, and 1/4 of it's bonus is given to the player"
+Golbat,2,FALSE,1,42,Regular,350,2,"Poison, Flying","Supersonic: Roll 1d100. On a 73+, the monster gets confused, and 1/4 of it's bonus is given to the player
+Hotel Transylvania: Blablabla... Suck the blood from a player... He loses -3 bonus for the rest of the game [G]"
+Oddish,1,TRUE,0,43,Regular,100,1,"Poison, Grass","Stun Spore: Roll 1d6. On a 5+, roll 1d6 to choose a player to help you"
+Gloom,2,TRUE,1,44,Regular,250,2,"Poison, Grass","Stun Spore: Roll 1d6. On a 5+, roll 1d6 to choose a player to help you
 Poison Powder: Roll 1d6. On a 4+, inflict poison on a player (-3 bonus for the current combat)"
-Vileplume,FALSE,2,45,Regular,500,3,"Poison, Grass","Stun Spore: Roll 1d6. On a 5+, roll 1d6 to choose a player to help you
+Vileplume,3,FALSE,2,45,Regular,500,3,"Poison, Grass","Stun Spore: Roll 1d6. On a 5+, roll 1d6 to choose a player to help you
 Poison Powder: Roll 1d6. On a 4+, inflict poison on a player (-3 bonus for the combat)
 Sleep Powder: Make a monster sleep. The next player fights against it (with all modifiers) [G]"
-Paras,TRUE,0,46,Regular,200,1,"Grass, Bug",Spore: Roll 1d4. Put x-1 Pokemon to sleep for a round
-Parasect,FALSE,1,47,Regular,550,2,"Grass, Bug","Spore: Roll 1d4. Put x-1 Pokemon to sleep for a round
+Paras,1,TRUE,0,46,Regular,200,1,"Grass, Bug",Spore: Roll 1d4. Put x-1 Pokemon to sleep for a round
+Parasect,2,FALSE,1,47,Regular,550,2,"Grass, Bug","Spore: Roll 1d4. Put x-1 Pokemon to sleep for a round
 Parasite (2019): Roll 1d100. On a 90+, steal a Pokemon from a player. It gets -1 bonus"
-Venonat,TRUE,0,48,Regular,200,1,"Poison, Bug","Big ahh Eyes: Roll 1d6. On a 2+, look at another player’s hand"
-Venomoth,FALSE,1,49,Regular,500,2,"Poison, Bug","Big ahh Eyes: Roll 1d6. On a 2+, look at another player’s hand
+Venonat,1,TRUE,0,48,Regular,200,1,"Poison, Bug","Big ahh Eyes: Roll 1d6. On a 2+, look at another player's hand"
+Venomoth,2,FALSE,1,49,Regular,500,2,"Poison, Bug","Big ahh Eyes: Roll 1d6. On a 2+, look at another player's hand
 See The Light: If you die, you get 2 times the cards and a Pokemon. You can choose to die [G]"
-Diglett,TRUE,0,50,Regular,250,1,Ground,Earthquake: Force all players to discard 1 card from their hand. Can be recharged by throwing a 1d6 and landing a 5+ [G]
-Dugtrio,FALSE,1,51,Regular,750,2,Ground,Earthquake: Force all players to discard 3 cards from their hand. Can be recharged by throwing a 1d6 and landing a 5+ [G]
-Meowth,TRUE,0,52,Regular,777,1,Normal,Pay Day: Draw an extra treasure card on win. Can’t be parsed into a Pokemon
-Persian,FALSE,1,53,Regular,777,2,Normal,"Pay Day: Draw an extra treasure card on win. Can’t be parsed into a Pokemon
+Diglett,1,TRUE,0,50,Regular,250,1,Ground,Earthquake: Force all players to discard 1 card from their hand. Can be recharged by throwing a 1d6 and landing a 5+ [G]
+Dugtrio,2,FALSE,1,51,Regular,750,2,Ground,Earthquake: Force all players to discard 3 cards from their hand. Can be recharged by throwing a 1d6 and landing a 5+ [G]
+Meowth,1,TRUE,0,52,Regular,777,1,Normal,Pay Day: Draw an extra treasure card on win. Can't be parsed into a Pokemon
+Persian,2,FALSE,1,53,Regular,777,2,Normal,"Pay Day: Draw an extra treasure card on win. Can't be parsed into a Pokemon
 Pickpocket: Roll 1d4. On a 1, a player steals a card from you. On a 2, nothing happens. On a 3, take a random card from a player. On a 4, choose a card from a player"
-Psyduck,TRUE,0,54,Regular,130,1,Water,"A duck walked up to a lemonade stand: Force a re-roll. If there is a lemon on the table, you can force twice for the same roll"
-Golduck,FALSE,1,55,Regular,450,2,Water,"A duck walked up to a lemonade stand: Force a re-roll. If there is a lemon on the table, you can force twice for the same roll
-Quack: Quack! Quack. Quack… :( (+10 bonus for the combat) [G]"
-Mankey,TRUE,0,56,Regular,200,1,Fighting,"Monkey See, Monkey Do: Copy an ability from another Pokemon on the field. Can be recharged with a banana [G]"
-Primeape,FALSE,1,57,Regular,600,2,Fighting,"Monkey See, Monkey Do: Copy an ability from another Pokemon on the field. Can be recharged with a banana [G]
+Psyduck,1,TRUE,0,54,Regular,130,1,Water,"A duck walked up to a lemonade stand: Force a re-roll. If there is a lemon on the table, you can force twice for the same roll"
+Golduck,2,FALSE,1,55,Regular,450,2,Water,"A duck walked up to a lemonade stand: Force a re-roll. If there is a lemon on the table, you can force twice for the same roll
+Quack: Quack! Quack. Quack... :( (+10 bonus for the combat) [G]"
+Mankey,1,TRUE,0,56,Regular,200,1,Fighting,"Monkey See, Monkey Do: Copy an ability from another Pokemon on the field. Can be recharged with a banana [G]"
+Primeape,2,FALSE,1,57,Regular,600,2,Fighting,"Monkey See, Monkey Do: Copy an ability from another Pokemon on the field. Can be recharged with a banana [G]
 Berserker, Rage: If you win combat by 5 or more, you may immediately challenge another Monster [G]"
-Growlithe,TRUE,0,58,Regular,250,1,Fire,Loyal Companion: You can’t lose your Pokemon
-Arcanine,FALSE,1,59,Regular,750,2,Fire,"Loyal Companion: You can’t lose your Pokemon
+Growlithe,1,TRUE,0,58,Regular,250,1,Fire,Loyal Companion: You can't lose your Pokemon
+Arcanine,2,FALSE,1,59,Regular,750,2,Fire,"Loyal Companion: You can't lose your Pokemon
 Intimidate: All monsters lose -3 bonus in combat"
-Poliwag,TRUE,0,60,Regular,100,1,Water,"Seed: Plant a seed! Poliwag will evolve in the next round. If there are seeds near you, evolve twice"
-Poliwhirl,TRUE,1,61,Regular,300,2,Water,"Amphibious: If there’s water near you, gain additional +2 bonus"
-Poliwrath,FALSE,2,62,Regular,500,3,"Water, Fighting","Amphibious: If there’s water near you, gain additional +2 bonus
+Poliwag,1,TRUE,0,60,Regular,100,1,Water,"Seed: Plant a seed! Poliwag will evolve in the next round. If there are seeds near you, evolve twice"
+Poliwhirl,2,TRUE,1,61,Regular,300,2,Water,"Amphibious: If there's water near you, gain additional +2 bonus"
+Poliwrath,3,FALSE,2,62,Regular,500,3,"Water, Fighting","Amphibious: If there's water near you, gain additional +2 bonus
 Dynamic Punch: Roll 1d6. On a 4+, stun the enemy and reduce their bonus by -4. Else, get confused and lose -1 bonus for this turn"
-Abra,TRUE,0,63,Regular,150,1,Psychic,Crucio: Roll 1d6. Inflict unbearable pain on the victim. The monster gets -x bonus
-Kadabra,TRUE,1,64,Regular,400,2,Psychic,"Crucio: Roll 1d6. Inflict unbearable pain on the victim. The monster gets -x bonus
-Imperio: Roll 1d6. Puts the victim completely under the caster’s control. The monster gets +x bonus"
-Alakazam,FALSE,2,65,Regular,750,3,Psychic,"Crucio: Roll 1d6. Inflict unbearable pain on the victim. The monster gets -x bonus
-Imperio: Roll 1d6. Puts the victim completely under the caster’s control. The monster gets +x bonus
+Abra,1,TRUE,0,63,Regular,150,1,Psychic,Crucio: Roll 1d6. Inflict unbearable pain on the victim. The monster gets -x bonus
+Kadabra,2,TRUE,1,64,Regular,400,2,Psychic,"Crucio: Roll 1d6. Inflict unbearable pain on the victim. The monster gets -x bonus
+Imperio: Roll 1d6. Puts the victim completely under the caster's control. The monster gets +x bonus"
+Alakazam,3,FALSE,2,65,Regular,750,3,Psychic,"Crucio: Roll 1d6. Inflict unbearable pain on the victim. The monster gets -x bonus
+Imperio: Roll 1d6. Puts the victim completely under the caster's control. The monster gets +x bonus
 Avada Kedavra: Instantly kills the target without causing pain [G]"
-Machop,TRUE,0,66,Regular,200,1,Fighting,2 Fists: Gain +1 bonus
-Machoke,TRUE,1,67,Regular,200,2,Fighting,2 Stronger Fists: Gain +2 bonus
-Machamp,FALSE,2,68,Regular,800,3,Fighting,4 Stronger Fists: Gain +4 bonus
-Bellsprout,TRUE,0,69,Regular,5,1,"Poison, Grass","FUNNY NUMBER: YOU HAVE TO Roll 1d100. On a 69, die! Else, gain +1 bonus [G]"
-Weepinbell,TRUE,1,70,Regular,10,2,"Poison, Grass",Peashooter: Gain +5 against zombies (undead)
-Victreebel,FALSE,2,71,Regular,50,3,"Poison, Grass","Peashooter: Gain +5 against zombies (undead)
+Machop,1,TRUE,0,66,Regular,200,1,Fighting,2 Fists: Gain +1 bonus
+Machoke,2,TRUE,1,67,Regular,200,2,Fighting,2 Stronger Fists: Gain +2 bonus
+Machamp,3,FALSE,2,68,Regular,800,3,Fighting,4 Stronger Fists: Gain +4 bonus
+Bellsprout,1,TRUE,0,69,Regular,5,1,"Poison, Grass","FUNNY NUMBER: YOU HAVE TO Roll 1d100. On a 69, die! Else, gain +1 bonus [G]"
+Weepinbell,2,TRUE,1,70,Regular,10,2,"Poison, Grass",Peashooter: Gain +5 against zombies (undead)
+Victreebel,3,FALSE,2,71,Regular,50,3,"Poison, Grass","Peashooter: Gain +5 against zombies (undead)
 Chomper: Defeat a monster with a level of 5 or less [G]"
-Tentacool,TRUE,0,72,Regular,400,1,"Poison, Water",Tenta-cool: Roll 1d6. Give a friend +x bonus
-Tentacruel,FALSE,1,73,Regular,800,2,"Poison, Water","Tenta-cool: Roll 1d6. Give a friend +x bonus
+Tentacool,1,TRUE,0,72,Regular,400,1,"Poison, Water",Tenta-cool: Roll 1d6. Give a friend +x bonus
+Tentacruel,2,FALSE,1,73,Regular,800,2,"Poison, Water","Tenta-cool: Roll 1d6. Give a friend +x bonus
 Tenta-cruel: Roll 1d6. Give an enemy -x bonus"
-Geodude,TRUE,0,74,Regular,0,1,"Ground, Rock","Self-Destruct: Kill a monster, but discard the Pokemon [G]"
-Graveler,TRUE,1,75,Regular,0,2,"Ground, Rock","Self-Destruct: Kill a monster, but discard the Pokemon [G]
-Can you smell what the rock is cooking: If there’s food on the table, you can throw a rock at another player (be wary of the glass table). Give a player -8 bonus [G]"
-Golem,FALSE,2,76,Regular,0,3,"Ground, Rock","Self-Destruct: Kill a monster, but discard the Pokemon [G]
-Can you smell what the rock is cooking: If there’s food on the table, you can throw a rock at another player (be wary of the glass table). Give a player -8 bonus [G]
+Geodude,1,TRUE,0,74,Regular,0,1,"Ground, Rock","Self-Destruct: Kill a monster, but discard the Pokemon [G]"
+Graveler,2,TRUE,1,75,Regular,0,2,"Ground, Rock","Self-Destruct: Kill a monster, but discard the Pokemon [G]
+Can you smell what the rock is cooking: If there's food on the table, you can throw a rock at another player (be wary of the glass table). Give a player -8 bonus [G]"
+Golem,3,FALSE,2,76,Regular,0,3,"Ground, Rock","Self-Destruct: Kill a monster, but discard the Pokemon [G]
+Can you smell what the rock is cooking: If there's food on the table, you can throw a rock at another player (be wary of the glass table). Give a player -8 bonus [G]
 Rock Hard: Gain a shield of +5. If you lose, you can add +5 to the bonus and not win but not lose either"
-Ponyta,TRUE,0,77,Regular,500,1,Fire,My Little Pony: You may summon the power of friendship to add +10 to your combat. Can only be used if someone helps you. Everyone must neigh before you play this card [G]
-Rapidash,FALSE,1,78,Regular,1000,2,Fire,"My Little Pony: You may summon the power of friendship to add +10 to your combat. Can only be used if someone helps you. Everyone must neigh before you play this card [G]
-Megan Thee Stallion: I’m a Savage. You are faster than your friends, and if you help them they have to let you choose the treasure you get and get at least half of the treasures"
-Slowpoke,TRUE,0,79,Regular,200,1,"Water, Psychic",Oblivious: Prevents attraction and intimidate. Your bonus can’t go down
-Slowbro,FALSE,1,80,Regular,800,2,"Water, Psychic","Oblivious: Prevents attraction and intimidate. Your bonus can’t go down
-Curse: Fuck! Shit! Piss! You can’t have boots items, but you can carry another big item or another 2 allies"
-Magnemite,TRUE,0,81,Regular,300,1,"Electric, Steel","F = qv x B: Roll 1d10. On a 6+, Attract a player to help you in combat"
-Magneton,FALSE,1,82,Regular,900,2,"Electric, Steel","F = qv x B: Roll 1d10. On a 6+, attract a player to help you in combat. Roll another 1d10. On a 8+, attract a second player to help you in combat"
-Farfetchd,FALSE,0,83,Regular,150,1,"Normal, Flying","Live Leak: Roll 1d10. On a 9+, kill a player. You can re-roll each round till success [G]"
-Doduo,TRUE,0,84,Regular,250,1,"Normal, Flying","Heads Or Tails?: If you have to discard a card, flip a coin"
-Dodrio,FALSE,1,85,Regular,750,2,"Normal, Flying","Heads Or Tails Or Heads?: If you have to discard a card, flip a coin. You can flip again"
-Seel,TRUE,0,86,Regular,250,1,Water,Ball Efficiency: Bounce a ball. The amount of bounces is your bonus
-Dewgong,FALSE,1,87,Regular,500,2,"Water, Ice",Ball Efficiency: Bounce a ball. The amount of bounces is your bonus
-Grimer,TRUE,0,88,Regular,-100,1,Poison,Trash: Throw away all of the garbage :) Gain +2 bonus if the DM is happy :)
-Muk,FALSE,1,89,Regular,-500,2,Poison,"Garbage: Throw away all of the garbage :) Gain +4 bonus if the DM is happy :)
+Ponyta,1,TRUE,0,77,Regular,500,1,Fire,My Little Pony: You may summon the power of friendship to add +10 to your combat. Can only be used if someone helps you. Everyone must neigh before you play this card [G]
+Rapidash,2,FALSE,1,78,Regular,1000,2,Fire,"My Little Pony: You may summon the power of friendship to add +10 to your combat. Can only be used if someone helps you. Everyone must neigh before you play this card [G]
+Megan Thee Stallion: I'm a Savage. You are faster than your friends, and if you help them they have to let you choose the treasure you get and get at least half of the treasures"
+Slowpoke,1,TRUE,0,79,Regular,200,1,"Water, Psychic",Oblivious: Prevents attraction and intimidate. Your bonus can't go down
+Slowbro,2,FALSE,1,80,Regular,800,2,"Water, Psychic","Oblivious: Prevents attraction and intimidate. Your bonus can't go down
+Curse: Fuck! Shit! Piss! You can't have boots items, but you can carry another big item or another 2 allies"
+Magnemite,1,TRUE,0,81,Regular,300,1,"Electric, Steel","F = qv x B: Roll 1d10. On a 6+, Attract a player to help you in combat"
+Magneton,2,FALSE,1,82,Regular,900,2,"Electric, Steel","F = qv x B: Roll 1d10. On a 6+, attract a player to help you in combat. Roll another 1d10. On a 8+, attract a second player to help you in combat"
+Farfetchd,1,FALSE,0,83,Regular,150,1,"Normal, Flying","Live Leak: Roll 1d10. On a 9+, kill a player. You can re-roll each round till success [G]"
+Doduo,1,TRUE,0,84,Regular,250,1,"Normal, Flying","Heads Or Tails?: If you have to discard a card, flip a coin"
+Dodrio,2,FALSE,1,85,Regular,750,2,"Normal, Flying","Heads Or Tails Or Heads?: If you have to discard a card, flip a coin. You can flip again"
+Seel,1,TRUE,0,86,Regular,250,1,Water,Ball Efficiency: Bounce a ball. The amount of bounces is your bonus
+Dewgong,2,FALSE,1,87,Regular,500,2,"Water, Ice",Ball Efficiency: Bounce a ball. The amount of bounces is your bonus
+Grimer,1,TRUE,0,88,Regular,-100,1,Poison,Trash: Throw away all of the garbage :) Gain +2 bonus if the DM is happy :)
+Muk,2,FALSE,1,89,Regular,-500,2,Poison,"Garbage: Throw away all of the garbage :) Gain +4 bonus if the DM is happy :)
 Say His Name Backwards"
-Shellder,TRUE,0,90,Regular,1000,1,Water,(:P) : Lick another player! Roll 1d6. The player you licked gets -(x + 1) bonus for the combat
-Cloyster,FALSE,1,91,Regular,1000,2,"Water, Ice","(:P) : Lick another player! Roll 1d6. The player you licked gets -(x + 1) bonus for the combat
-Not Kosher: If there’s a non-kosher food on the table, you gain +3 bonus"
-Gastly,TRUE,0,92,Regular,100,1,"Poison, Ghost",Boo!: Roll 1d6. The x player will not participate in the next round [G]
-Haunter,TRUE,1,93,Regular,400,2,"Poison, Ghost","Boo!: Roll 1d6. The x player will not participate in the next round [G]
+Shellder,1,TRUE,0,90,Regular,1000,1,Water,(:P) : Lick another player! Roll 1d6. The player you licked gets -(x + 1) bonus for the combat
+Cloyster,2,FALSE,1,91,Regular,1000,2,"Water, Ice","(:P) : Lick another player! Roll 1d6. The player you licked gets -(x + 1) bonus for the combat
+Not Kosher: If there's a non-kosher food on the table, you gain +3 bonus"
+Gastly,1,TRUE,0,92,Regular,100,1,"Poison, Ghost",Boo!: Roll 1d6. The x player will not participate in the next round [G]
+Haunter,2,TRUE,1,93,Regular,400,2,"Poison, Ghost","Boo!: Roll 1d6. The x player will not participate in the next round [G]
 Shadow Tag: Players that are running away from a fight you participate in need to roll twice and succeed to run away successfully. Participation can be applying a modifier"
-Gengar,FALSE,2,94,Regular,800,3,"Poison, Ghost","Boo!: Roll 1d6. The x player will not participate in the next round [G]
+Gengar,3,FALSE,2,94,Regular,800,3,"Poison, Ghost","Boo!: Roll 1d6. The x player will not participate in the next round [G]
 Shadow Tag: Players that are running away from a fight you participate in need to roll twice and succeed to run away successfully. Participation can be applying a modifier
 We do a little trolling: Make 2 players switch places (and cards) [G]"
-Onix,FALSE,1,95,Regular,0,2,"Ground, Rock",Long ahh snake: Gain +x bonus according to your height order
-Drowzee,TRUE,0,96,Regular,250,1,Psychic,"Yawner: If a player yawns, he can’t fight a monster in his next round"
-Hypno,FALSE,1,97,Regular,700,2,Psychic,"Yawner: If a player yawns, he can’t fight a monster in his next round
-Hypnotize: Your looks hypnotize! Pick a player to help you in combat (can’t be used to win the game)"
-Krabby,TRUE,0,98,Regular,250,1,Water,Big Meaty Claws: Roll 1d8 with a crab claw. Take the x-th card from the pile
-Kingler,FALSE,1,99,Regular,900,2,Water,Bigger Meaty Claws: Roll 1d8 with a crab claw. Take the x-th card from the pile and the next card aswell
-Voltorb,TRUE,0,100,Regular,5,1,Electric,Pokeball: Catch another Pokemon [G]
-Electrode,FALSE,1,101,Regular,500,2,Electric,"Pokeball: Catch another Pokemon [G]
+Onix,1,FALSE,1,95,Regular,0,2,"Ground, Rock",Long ahh snake: Gain +x bonus according to your height order
+Drowzee,1,TRUE,0,96,Regular,250,1,Psychic,"Yawner: If a player yawns, he can't fight a monster in his next round"
+Hypno,2,FALSE,1,97,Regular,700,2,Psychic,"Yawner: If a player yawns, he can't fight a monster in his next round
+Hypnotize: Your looks hypnotize! Pick a player to help you in combat (can't be used to win the game)"
+Krabby,1,TRUE,0,98,Regular,250,1,Water,Big Meaty Claws: Roll 1d8 with a crab claw. Take the x-th card from the pile
+Kingler,2,FALSE,1,99,Regular,900,2,Water,Bigger Meaty Claws: Roll 1d8 with a crab claw. Take the x-th card from the pile and the next card aswell
+Voltorb,1,TRUE,0,100,Regular,5,1,Electric,Pokeball: Catch another Pokemon [G]
+Electrode,2,FALSE,1,101,Regular,500,2,Electric,"Pokeball: Catch another Pokemon [G]
 Anti-Pokeball: Make a player free a Pokemon [G]"
-Exeggcute,TRUE,0,102,Regular,444,1,"Grass, Psychic",Deez Nuts: Gain bonus according to the amount of Deez Nuts you have
-Exeggutor,FALSE,1,103,Regular,888,2,"Grass, Psychic","Deez Nuts: Gain bonus according to the amount of Deez Nuts you have
-Penis Colliding: Drink a Piña colada (or Bacardi). You get drunk, you forget what race you are and can choose your race"
-Cubone,TRUE,0,104,Regular,900,1,Ground,"Cuboner: If you have boner, that’s weird! If you’re a girl, ok… Gain +3 bonus if you have a hand item"
-Marowak,FALSE,1,105,Regular,900,2,Ground,"Cuboner: If you have boner, that’s weird! If you’re a girl, ok… Gain +3 bonus if you have a hand item
+Exeggcute,1,TRUE,0,102,Regular,444,1,"Grass, Psychic",Deez Nuts: Gain bonus according to the amount of Deez Nuts you have
+Exeggutor,2,FALSE,1,103,Regular,888,2,"Grass, Psychic","Deez Nuts: Gain bonus according to the amount of Deez Nuts you have
+Penis Colliding: Drink a Piֳ±a colada (or Bacardi). You get drunk, you forget what race you are and can choose your race"
+Cubone,1,TRUE,0,104,Regular,900,1,Ground,"Cuboner: If you have boner, that's weird! If you're a girl, ok... Gain +3 bonus if you have a hand item"
+Marowak,2,FALSE,1,105,Regular,900,2,Ground,"Cuboner: If you have boner, that's weird! If you're a girl, ok... Gain +3 bonus if you have a hand item
 Bone Rush: Your bonus is multiplied by x1.5"
-Hitmonlee,FALSE,1,106,Regular,500,2,Fighting,Taekwon-Do: Kick a player. This player needs to discard his shoes item and his legs as well [G]
-Hitmonchan,FALSE,1,107,Regular,500,2,Fighting,Boxing: Punch a player. This player needs to discard his hands items and his hands as well [G]
-Lickitung,FALSE,1,108,Regular,700,2,Normal,"Lick: Roll a 1d6. On a 4+, lick a player. This player gets paralyzed and needs to roll a 1d6. On a 4+, he is cured. Else, the player can’t fight monsters this round"
-Koffing,TRUE,0,109,Regular,-100,1,Poison,"Oh Oh, Stinky!: All other players lose -2 bonus"
-Weezing,FALSE,1,110,Regular,-200,2,Poison,"Oh, Oh, Stinkush!: All other players lose -5 bonus"
-Rhyhorn,TRUE,0,111,Regular,400,1,"Ground, Rock","Horny: ……………………. If you have a head item, gain additional +2 bonus"
-Rhydon,FALSE,1,112,Regular,800,2,"Ground, Rock","Horny: ……………………. If you have a head item, gain additional +2 bonus
-Rhydon Deez Dih: I have no idea what to put here, I think I’m going to leave this spot empty, I’m going insane making this. Gain +3 bonus"
-Chansey,FALSE,1,113,Regular,450,2,Normal,"Medic: If someone at the table is sick, get +4 bonus and give the sick player +2 bonus and a pill. Else, get +2 bonus"
-Tangela,FALSE,0,114,Regular,200,1,Grass,Tangle Kelp: Defeat an undead or underwater monster [G]
-Kangaskhan,FALSE,1,115,Regular,900,2,Normal,"Parental Bond: On helping or being helped, get +5 bonus"
-Horsea,TRUE,1,116,Regular,100,2,Water,Orsi: He is my friend from segel Aram :) It’s funny cause the name of the Pokemon and his name is the same :D Now I have to make Horsea OP somehow… Gain +3 bonus!
-Seadra,FALSE,1,117,Regular,500,2,Water,"Not Orsi: Well, it’s not Orsi now… I guess I still need to make it balanced… Gain the ability to shoot water from your mouth on another player. Roll 1d20. On a 12+, Makes them wet, and they can’t fight against monsters they find attractive"
-Goldeen,TRUE,0,118,Regular,250,1,Water,"Sushi Material: Let’s order from Sushi One! One hour to each direction? Roll 1d100. On 65+, a player can’t draw treasures at all this round"
-Seaking,FALSE,1,119,Regular,600,2,Water,"Sushi Material: Let’s order from Sushi One! One hour to each direction? Roll 1d100. On 65+, a player can’t draw treasures at all this round
+Hitmonlee,1,FALSE,1,106,Regular,500,2,Fighting,Taekwon-Do: Kick a player. This player needs to discard his shoes item and his legs as well [G]
+Hitmonchan,2,FALSE,1,107,Regular,500,2,Fighting,Boxing: Punch a player. This player needs to discard his hands items and his hands as well [G]
+Lickitung,1,FALSE,1,108,Regular,700,2,Normal,"Lick: Roll a 1d6. On a 4+, lick a player. This player gets paralyzed and needs to roll a 1d6. On a 4+, he is cured. Else, the player can't fight monsters this round"
+Koffing,1,TRUE,0,109,Regular,-100,1,Poison,"Oh Oh, Stinky!: All other players lose -2 bonus"
+Weezing,2,FALSE,1,110,Regular,-200,2,Poison,"Oh, Oh, Stinkush!: All other players lose -5 bonus"
+Rhyhorn,1,TRUE,0,111,Regular,400,1,"Ground, Rock","Horny: ......................... If you have a head item, gain additional +2 bonus"
+Rhydon,2,FALSE,1,112,Regular,800,2,"Ground, Rock","Horny: ......................... If you have a head item, gain additional +2 bonus
+Rhydon Deez Dih: I have no idea what to put here, I think I'm going to leave this spot empty, I'm going insane making this. Gain +3 bonus"
+Chansey,1,FALSE,1,113,Regular,450,2,Normal,"Medic: If someone at the table is sick, get +4 bonus and give the sick player +2 bonus and a pill. Else, get +2 bonus"
+Tangela,1,FALSE,0,114,Regular,200,1,Grass,Tangle Kelp: Defeat an undead or underwater monster [G]
+Kangaskhan,1,FALSE,1,115,Regular,900,2,Normal,"Parental Bond: On helping or being helped, get +5 bonus"
+Horsea,1,TRUE,1,116,Regular,100,2,Water,Orsi: He is my friend from segel Aram :) It's funny cause the name of the Pokemon and his name is the same :D Now I have to make Horsea OP somehow... Gain +3 bonus!
+Seadra,2,FALSE,1,117,Regular,500,2,Water,"Not Orsi: Well, it's not Orsi now... I guess I still need to make it balanced... Gain the ability to shoot water from your mouth on another player. Roll 1d20. On a 12+, Makes them wet, and they can't fight against monsters they find attractive"
+Goldeen,1,TRUE,0,118,Regular,250,1,Water,"Sushi Material: Let's order from Sushi One! One hour to each direction? Roll 1d100. On 65+, a player can't draw treasures at all this round"
+Seaking,2,FALSE,1,119,Regular,600,2,Water,"Sushi Material: Let's order from Sushi One! One hour to each direction? Roll 1d100. On 65+, a player can't draw treasures at all this round
 Namor, King of the Sea: Draw 5 treasures [G]"
-Staryu,TRUE,0,120,Regular,250,1,Water,"Patrick Star: You become the star of the match! Each time a player needs to discard cards, you get the cards (only works if you’re not the top 1 player)"
-Starmie,FALSE,1,121,Regular,300,2,"Water, Psychic","Patrick Star: You become the star of the match! Each time a player needs to discard cards, you get the cards (only works if you’re not the top 1 player)
-Star… Me?: Your card limit is raised by 3"
-Mr-Mime,FALSE,1,122,Regular,600,2,"Psychic, Fairy",Pantomime: You need to mimic another player from now on. That means that you need to get their clothes! Steal all wearable and held items from a player [G]
-Scyther,FALSE,1,123,Regular,500,2,"Bug, Flying",Fortnite Scythe Pickaxe: Your attacks are very sharp. You can cause bleeding onto your enemies. Each other Pokemon you have gets +2 bonus
-Jynx,FALSE,1,124,Regular,0,2,"Psychic, Ice","You’re a Jinx!: Jinx a player. This player will get the next 3 curses that any player draws, including cards the cursed player draws [G]"
-Electabuzz,FALSE,1,125,Regular,650,2,Electric,"Thunder: A massive attack that can be used once. Roll 1d10. Get +x for that combat. If there is thunder outside (or is raining), get double the bonus [G]"
-Magmar,FALSE,1,126,Regular,650,2,Fire,"Fire Blast: A massive attack that can be used once. Roll 1d10. Get +x for that combat. If there it is very very hot outside, get double the bonus [G]"
-Pinsir,FALSE,1,127,Regular,600,2,Bug,"Mold Breaker: Can be used always, no matter what. Also, gain +2 bonus"
-Tauros,FALSE,1,128,Regular,500,2,Normal,"Yair Gershinskflotz: Shor. Roll 1d10. On a 7+, You can force a help on a player, only if he is currently losing"
-Magikarp,TRUE,0,129,Regular,0,0,Water,Splash: Does Nothing
-Gyarados,FALSE,1,130,Regular,1000,2,"Water, Flying","Hyper Beam: You get +5 bonus for this combat, but can’t fight a monster in your next round"
-Lapras,FALSE,2,131,Regular,900,4,"Water, Ice","Perish Song: Roll 1d6, 3 times. If you roll 4+ on all of the rolls, you can end an ongoing fight, win the fight even though you didn’t participate, and kill the other players that fought the monster (can be rolled once in a round until succession) [G]"
-Ditto,FALSE,0,132,Regular,0,0,Normal,Transform: Pick a Pokemon from another player. Ditto is now that Pokemon [G]
-Eevee,TRUE,0,133,Regular,1000,1,Normal,Charm: Roll 1d6 and discard a card. The x player needs to help you
-Vaporeon,FALSE,1,134,Regular,750,2,Water,"Charm: Roll 1d6 and discard a card. The x player needs to help you
-Hey guys, did you know that in terms of male human…: If you read the copy pasta aloud you get +6 bonus for this combat [G]"
-Jolteon,FALSE,1,135,Regular,750,2,Electric,"Charm: Roll 1d6 and discard a card. The x player needs to help you
+Staryu,1,TRUE,0,120,Regular,250,1,Water,"Patrick Star: You become the star of the match! Each time a player needs to discard cards, you get the cards (only works if you're not the top 1 player)"
+Starmie,2,FALSE,1,121,Regular,300,2,"Water, Psychic","Patrick Star: You become the star of the match! Each time a player needs to discard cards, you get the cards (only works if you're not the top 1 player)
+Star... Me?: Your card limit is raised by 3"
+Mr-Mime,1,FALSE,1,122,Regular,600,2,"Psychic, Fairy",Pantomime: You need to mimic another player from now on. That means that you need to get their clothes! Steal all wearable and held items from a player [G]
+Scyther,1,FALSE,1,123,Regular,500,2,"Bug, Flying",Fortnite Scythe Pickaxe: Your attacks are very sharp. You can cause bleeding onto your enemies. Each other Pokemon you have gets +2 bonus
+Jynx,1,FALSE,1,124,Regular,0,2,"Psychic, Ice","You're a Jinx!: Jinx a player. This player will get the next 3 curses that any player draws, including cards the cursed player draws [G]"
+Electabuzz,1,FALSE,1,125,Regular,650,2,Electric,"Thunder: A massive attack that can be used once. Roll 1d10. Get +x for that combat. If there is thunder outside (or is raining), get double the bonus [G]"
+Magmar,1,FALSE,1,126,Regular,650,2,Fire,"Fire Blast: A massive attack that can be used once. Roll 1d10. Get +x for that combat. If there it is very very hot outside, get double the bonus [G]"
+Pinsir,1,FALSE,1,127,Regular,600,2,Bug,"Mold Breaker: Can be used always, no matter what. Also, gain +2 bonus"
+Tauros,1,FALSE,1,128,Regular,500,2,Normal,"Yair Gershinskflotz: Shor. Roll 1d10. On a 7+, You can force a help on a player, only if he is currently losing"
+Magikarp,1,TRUE,0,129,Regular,0,0,Water,Splash: Does Nothing
+Gyarados,2,FALSE,1,130,Regular,1000,2,"Water, Flying","Hyper Beam: You get +5 bonus for this combat, but can't fight a monster in your next round"
+Lapras,1,FALSE,2,131,Regular,900,4,"Water, Ice","Perish Song: Roll 1d6, 3 times. If you roll 4+ on all of the rolls, you can end an ongoing fight, win the fight even though you didn't participate, and kill the other players that fought the monster (can be rolled once in a round until succession) [G]"
+Ditto,1,FALSE,0,132,Regular,0,0,Normal,Transform: Pick a Pokemon from another player. Ditto is now that Pokemon [G]
+Eevee,1,TRUE,0,133,Regular,1000,1,Normal,Charm: Roll 1d6 and discard a card. The x player needs to help you
+Vaporeon,2,FALSE,1,134,Regular,750,2,Water,"Charm: Roll 1d6 and discard a card. The x player needs to help you
+Hey guys, did you know that in terms of male human...: If you read the copy pasta aloud you get +6 bonus for this combat [G]"
+Jolteon,2,FALSE,1,135,Regular,750,2,Electric,"Charm: Roll 1d6 and discard a card. The x player needs to help you
 Bolt: Fastest dog alive! You get to play another turn whenever you like [G]"
-Flareon,FALSE,1,136,Regular,750,2,Fire,"Charm: Roll 1d6 and discard a card. The x player needs to help you
+Flareon,2,FALSE,1,136,Regular,750,2,Fire,"Charm: Roll 1d6 and discard a card. The x player needs to help you
 Flash Fire: If you have another fire type or another dog, you get additional +3 bonus"
-Porygon,FALSE,0,137,Regular,100,1,Normal,"Epileptic Seizure: Roll 1d8. On a 6+, make a player unable to wear glasses. He needs to roll a 1d6 and get a 3+ in order to fight against a monster"
-Omanyte,TRUE,0,138,Fossil,300,1,"Water, Rock",Cute!: He is very cute :3 Gain +2 bonus!
-Omastar,FALSE,1,139,Fossil,600,2,"Water, Rock","WTF IS THAT: Roll 1d4. On a 3+, a player can’t use their Pokemon for their next combat"
-Kabuto,TRUE,0,140,Fossil,100,1,"Water, Rock","Weak Armor: Each time you lose combat or is being applied a curse, get +2 bonus"
-Kabutops,FALSE,1,141,Fossil,700,2,"Water, Rock","Weaker Armor: Each time you lose combat or is being applied a curse, get +3 bonus"
-Aerodactyl,FALSE,2,142,Fossil,900,3,"Rock, Flying",Rock Head: Prevent negative effects from your own items and Pokemon
-Snorlax,FALSE,2,143,Regular,950,4,Normal,Belly Drum: Double your bonus. Then get rid of Snorlax [G]
-Articuno,FALSE,3,144,Legendary,1000,5,"Ice, Flying",Wings of Legend: Avoid any negative effect [G]
-Zapdos,FALSE,3,145,Legendary,1000,5,"Electric, Flying",Wings of Legend: Avoid any negative effect [G]
-Moltres,FALSE,3,146,Legendary,1000,5,"Fire, Flying",Wings of Legend: Avoid any negative effect [G]
-Dratini,TRUE,0,147,Pseudo-Legendary,250,1,Dragon,Dragon Dance: Roll 1d4 and do a little dancy dance. Gain +x to your next roll
-Dragonair,TRUE,1,148,Pseudo-Legendary,600,2,Dragon,Dragon Dance: Roll 1d4 and do a little dancy dance. Gain +x to your next roll
-Dragonite,FALSE,2,149,Pseudo-Legendary,1000,4,"Dragon, Flying",Dragon Dance: Roll 1d4 and do a little dancy dance. Gain +x to your next roll
-Mewtwo,FALSE,3,150,Legendary,1500,6,Psychic,MeowTastic: Level-Up (you can’t win with this) [G]
-Mew,FALSE,3,151,Mythical,1750,6,Psychic,MewTastic: Level-Up (you can win with this) [G]
+Porygon,1,FALSE,0,137,Regular,100,1,Normal,"Epileptic Seizure: Roll 1d8. On a 6+, make a player unable to wear glasses. He needs to roll a 1d6 and get a 3+ in order to fight against a monster"
+Omanyte,1,TRUE,0,138,Fossil,300,1,"Water, Rock",Cute!: He is very cute :3 Gain +2 bonus!
+Omastar,2,FALSE,1,139,Fossil,600,2,"Water, Rock","WTF IS THAT: Roll 1d4. On a 3+, a player can't use their Pokemon for their next combat"
+Kabuto,1,TRUE,0,140,Fossil,100,1,"Water, Rock","Weak Armor: Each time you lose combat or is being applied a curse, get +2 bonus"
+Kabutops,2,FALSE,1,141,Fossil,700,2,"Water, Rock","Weaker Armor: Each time you lose combat or is being applied a curse, get +3 bonus"
+Aerodactyl,1,FALSE,2,142,Fossil,900,3,"Rock, Flying",Rock Head: Prevent negative effects from your own items and Pokemon
+Snorlax,1,FALSE,2,143,Regular,950,4,Normal,Belly Drum: Double your bonus. Then get rid of Snorlax [G]
+Articuno,1,FALSE,3,144,Legendary,1000,5,"Ice, Flying",Wings of Legend: Avoid any negative effect [G]
+Zapdos,1,FALSE,3,145,Legendary,1000,5,"Electric, Flying",Wings of Legend: Avoid any negative effect [G]
+Moltres,1,FALSE,3,146,Legendary,1000,5,"Fire, Flying",Wings of Legend: Avoid any negative effect [G]
+Dratini,1,TRUE,0,147,Pseudo-Legendary,250,1,Dragon,Dragon Dance: Roll 1d4 and do a little dancy dance. Gain +x to your next roll
+Dragonair,2,TRUE,1,148,Pseudo-Legendary,600,2,Dragon,Dragon Dance: Roll 1d4 and do a little dancy dance. Gain +x to your next roll
+Dragonite,3,FALSE,2,149,Pseudo-Legendary,1000,4,"Dragon, Flying",Dragon Dance: Roll 1d4 and do a little dancy dance. Gain +x to your next roll
+Mewtwo,1,FALSE,3,150,Legendary,1500,6,Psychic,MeowTastic: Level-Up (you can't win with this) [G]
+Mew,1,FALSE,3,151,Mythical,1750,6,Psychic,MewTastic: Level-Up (you can win with this) [G]
