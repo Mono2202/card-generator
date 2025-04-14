@@ -1,11 +1,11 @@
 import os
 from alive_progress import alive_bar
 import pandas as pd
-from pokemon_munchkin_card import PokemonMunchkinCard
+from templates.pokemon_munchkin_card import PokemonMunchkinCard
 
 POKEMON_MUNCHKIN_CSV_PATH = "..\\database\\pokemon_munchkin.csv"
 
-def main():
+def generate():
     df = pd.read_csv(POKEMON_MUNCHKIN_CSV_PATH)
     all_pokemon = df.to_dict('records')
     with alive_bar(len(all_pokemon)) as bar:
@@ -25,7 +25,3 @@ def main():
             )
             munchkin_card.create_card()
             bar()
-    
-
-if __name__ == "__main__":
-    main()

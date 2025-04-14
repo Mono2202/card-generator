@@ -35,8 +35,10 @@ class Text():
 
         for line in lines:
             # Title that start with ": " are bold, e.g.: "*Ability Name:* this does that"
+            if line[-1] == ":":
+                line = line + " "
             title_index = line.find(": ")
-            if title_index >= 0:
+            if title_index >= 0 or line[-1] == ":":
                 draw_ctx.text(fixed_position, line[:title_index + 1], fill=self._color, font=text_font, stroke_width=0.5, stroke_fill="black")
                 draw_ctx.text((fixed_position[0] + draw_ctx.textlength(line[:title_index + 1], font=text_font), fixed_position[1]), line[title_index + 1:], fill=self._color, font=text_font)
                 fixed_position = (fixed_position[0], fixed_position[1] + self._size)
