@@ -1,6 +1,6 @@
-from card import Card
-from text import Text
-from sprite import Sprite
+from card.card import Card
+from card.text import Text
+from card.sprite import Sprite
 
 class MunchkinCard(Card):
     MUNCHKIN_CARD = "munchkin"
@@ -28,7 +28,8 @@ class MunchkinCard(Card):
             position_percent=(0.5, 0.13)
         ))
 
-        if (len(description_text) > 360):
+        # TODO: add condition, if 3 bullet points be higher
+        if (len(description_text) > 350):
             y_position = 0.5
         else:
             y_position = 0.6
