@@ -28,7 +28,8 @@ class MunchkinCard(Card):
             position_percent=(0.5, 0.13)
         ))
 
-        if (len(description_text) > 360):
+        # TODO: add condition, if 3 bullet points be higher
+        if (len(description_text) > 350):
             y_position = 0.5
         else:
             y_position = 0.6
