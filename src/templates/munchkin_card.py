@@ -1,6 +1,6 @@
-from card import Card
-from text import Text
-from sprite import Sprite
+from card.card import Card
+from card.text import Text
+from card.sprite import Sprite
 
 class MunchkinCard(Card):
     MUNCHKIN_CARD = "munchkin"

@@ -56,3 +56,5 @@ df = pd.read_csv(NEW_DB_NAME)
 df["Description"] = df["Description"].apply(parse_description)
 
 df.to_csv(NEW_DB_NAME, index=False)
+
+# TODO: make another db from notion and backup
