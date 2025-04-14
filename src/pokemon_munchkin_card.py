@@ -10,7 +10,7 @@ class PokemonMunchkinCard(MunchkinCard):
     BODY_FONT = "CaslonAntique"
     FONT_COLOR = (67, 27, 21)
 
-    def __init__(self, card_title: str, bonus: int, description_blocks: list, ally: int, coins: int, types: list, dex_number: int, can_evolve: bool):
+    def __init__(self, card_title: str, bonus: int, description: str, ally: int, coins: int, types: list, dex_number: int, can_evolve: bool):
         if len(types) == 1:
             x_position_percent = 0.5
             offset = 0
@@ -44,20 +44,11 @@ class PokemonMunchkinCard(MunchkinCard):
             )
         ]
 
-        description_all = ""
-        if description_blocks == []:
-            description_all = "aaa"
-        else:
-            for block in description_blocks:
-                try:
-                    description_all += "•" + block["bulleted_list_item"]["rich_text"][0]["plain_text"] + "                                                    "
-                except Exception:
-                    ...
-
         super().__init__(
             card_title=card_title,
             bonus=bonus,
-            description_text=description_all,
+            # TODO: add dots?
+            description_text=description.replace("\n", "                                                    "),
             bottom_left_text=f"{ally} Ally",
             bottom_right_text=f"{coins} Coins",
             additional_sprites=sprites,
