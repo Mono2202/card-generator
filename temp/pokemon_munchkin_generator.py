@@ -36,12 +36,13 @@ def main():
     api = NotionAPI(NOTION_API_KEY)
     all_pages = api.get_all_pages_database(MUNCHKIN_DATABASE_ID)
     all_pages.reverse()
-    all_pages = all_pages[:9]
+    descriptions = []
     for page in all_pages:
         page_properties = page["properties"]
         # if os.path.isfile("..\\output\\" + str(page_properties["Dex Number"]["number"]).zfill(4) + "_" + page_properties["Name"]["title"][0]["text"]["content"].lower() + ".png"):
         #     continue
         page_content = api.get_page_content(page["id"])
+
         if page_content == []:
             return
 
