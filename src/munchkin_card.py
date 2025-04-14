@@ -3,7 +3,7 @@ from text import Text
 from sprite import Sprite
 
 class MunchkinCard(Card):
-    MUNCHKIN_CARD = "munchkin"
+    MUNCHKIN_CARD = "pokemon_regular_munchkin"
 
     # TODO: move to global data class?
     TITLE_FONT = "Quasimodo"
@@ -37,8 +37,8 @@ class MunchkinCard(Card):
             text=description_text,
             font=self.BODY_FONT,
             color=self.FONT_COLOR,
-            size=30,
-            position_percent=(28, y_position)
+            size=28,
+            position_percent=(40, y_position)
         ))
 
         texts.append(Text(
@@ -54,7 +54,7 @@ class MunchkinCard(Card):
             font=self.BODY_FONT,
             color=self.FONT_COLOR,
             size=30,
-            position_percent=(0.9, 0.9)
+            position_percent=(0.88, 0.9)
         ))
 
         sprites = additional_sprites 

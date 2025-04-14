@@ -23,7 +23,7 @@ class PokemonMunchkinCard(MunchkinCard):
             sprites.append(Sprite(
                 sprite=self.MUNCHKIN_POKEMON_TYPE.format(pokemon_type=pokemon_type),
                 size=(50, 50),
-                position_percent=(x_position_percent, 0.885)
+                position_percent=(x_position_percent, 0.883)
             ))
             x_position_percent += offset
 
@@ -31,7 +31,7 @@ class PokemonMunchkinCard(MunchkinCard):
             sprites.append(Sprite(
                 sprite=self.MUNCHKIN_POKEMON_CAN_EVOLVE,
                 size=(50, 50),
-                position_percent=(0.9, 0.045)
+                position_percent=(0.9, 0.048)
             ))
         
         texts = [
@@ -40,7 +40,7 @@ class PokemonMunchkinCard(MunchkinCard):
                 font=self.BODY_FONT,
                 color=self.FONT_COLOR,
                 size=30,
-                position_percent=(0.1, 0.05)
+                position_percent=(0.1, 0.06)
             )
         ]
 
