@@ -49,6 +49,7 @@ class PokemonMunchkinCard(MunchkinCard):
         card_background = self.MUNCHKIN_POKEMON_CARD_BACKGROUND.format(category=category.lower())
         if category.lower() == "regular":
             card_background += f"_stage_{stage}"
+
         super().__init__(
             card_title=name,
             bonus=bonus,
