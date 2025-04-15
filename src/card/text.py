@@ -20,7 +20,7 @@ class Text():
             text_font = ImageFont.load_default()
 
         # TODO: width should be an input
-        lines = textwrap.wrap(self._text, width=40)
+        lines = textwrap.wrap(self._text, width=41)
         text_width = draw_ctx.textlength(lines[0], font=text_font)
 
         if self._position_percent[0] < 1:

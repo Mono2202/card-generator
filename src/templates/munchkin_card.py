@@ -3,14 +3,12 @@ from card.text import Text
 from card.sprite import Sprite
 
 class MunchkinCard(Card):
-    MUNCHKIN_CARD = "munchkin"
-
     # TODO: move to global data class?
     TITLE_FONT = "Quasimodo"
     BODY_FONT = "CaslonAntique"
     FONT_COLOR = (67, 27, 21)
 
-    def __init__(self, card_title: str, bonus: int, description_text: str, bottom_left_text: str, bottom_right_text: str, additional_sprites: list, additional_texts: list, output_name: str = ""):
+    def __init__(self, card_title: str, bonus: int, description_text: str, bottom_left_text: str, bottom_right_text: str, additional_sprites: list, additional_texts: list, card_background: str = "munchkin", output_name: str = ""):
         texts = additional_texts 
         texts.append(Text(
             text=f"+{bonus} Bonus",
@@ -38,8 +36,8 @@ class MunchkinCard(Card):
             text=description_text,
             font=self.BODY_FONT,
             color=self.FONT_COLOR,
-            size=30,
-            position_percent=(28, y_position)
+            size=28,
+            position_percent=(45, y_position)
         ))
 
         texts.append(Text(
@@ -47,7 +45,7 @@ class MunchkinCard(Card):
             font=self.BODY_FONT,
             color=self.FONT_COLOR,
             size=30,
-            position_percent=(0.1, 0.9)
+            position_percent=(0.12, 0.89)
         ))
 
         texts.append(Text(
@@ -55,7 +53,7 @@ class MunchkinCard(Card):
             font=self.BODY_FONT,
             color=self.FONT_COLOR,
             size=30,
-            position_percent=(0.9, 0.9)
+            position_percent=(0.87, 0.89)
         ))
 
         sprites = additional_sprites 
@@ -68,4 +66,4 @@ class MunchkinCard(Card):
         if output_name == "":
             output_name = card_title
 
-        super().__init__(card_background=self.MUNCHKIN_CARD, output_name=output_name, texts=texts, sprites=sprites)
+        super().__init__(card_background=card_background, output_name=output_name, texts=texts, sprites=sprites)

@@ -39,8 +39,8 @@ def main():
     descriptions = []
     for page in all_pages:
         page_properties = page["properties"]
-        if os.path.isfile("..\\output\\" + str(page_properties["Dex Number"]["number"]).zfill(4) + "_" + page_properties["Name"]["title"][0]["text"]["content"].lower() + ".png"):
-            continue
+        # if os.path.isfile("..\\output\\" + str(page_properties["Dex Number"]["number"]).zfill(4) + "_" + page_properties["Name"]["title"][0]["text"]["content"].lower() + ".png"):
+        #     continue
         page_content = api.get_page_content(page["id"])
 
         if page_content == []:
