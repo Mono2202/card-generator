@@ -79,8 +79,8 @@ Parasite (2019): Roll 1d100. On a 90+, steal a Pokemon from a player. It gets -1
 Venonat,1,TRUE,0,48,Regular,200,1,"Poison, Bug","Big ahh Eyes: Roll 1d6. On a 2+, look at another player's hand"
 Venomoth,2,FALSE,1,49,Regular,500,2,"Poison, Bug","Big ahh Eyes: Roll 1d6. On a 2+, look at another player's hand
 See The Light: If you die, you get 2 times the cards and a Pokemon. You can choose to die [G]"
-Diglett,1,TRUE,0,50,Regular,250,1,Ground,Earthquake: Force all players to discard 1 card from their hand. Can be recharged by throwing a 1d6 and landing a 5+ [G]
-Dugtrio,2,FALSE,1,51,Regular,750,2,Ground,Earthquake: Force all players to discard 3 cards from their hand. Can be recharged by throwing a 1d6 and landing a 5+ [G]
+Diglett,1,TRUE,0,50,Regular,250,1,Ground,Earthquake: Force all players to discard 1 card from their hand. Can be recharged by throwing a 1d6 once and landing a 6 [G]
+Dugtrio,2,FALSE,1,51,Regular,750,2,Ground,Earthquake: Force all players to discard 3 cards from their hand. Can be recharged by throwing a 1d6 once and landing a 6 [G]
 Meowth,1,TRUE,0,52,Regular,777,1,Normal,Pay Day: Draw an extra treasure card on win. Can't be parsed into a Pokemon
 Persian,2,FALSE,1,53,Regular,777,2,Normal,"Pay Day: Draw an extra treasure card on win. Can't be parsed into a Pokemon
 Pickpocket: Roll 1d4. On a 1, a player steals a card from you. On a 2, nothing happens. On a 3, take a random card from a player. On a 4, choose a card from a player"
@@ -203,11 +203,11 @@ Kabuto,1,TRUE,0,140,Fossil,100,1,"Water, Rock","Weak Armor: Each time you lose c
 Kabutops,2,FALSE,1,141,Fossil,700,2,"Water, Rock","Weaker Armor: Each time you lose combat or is being applied a curse, get +3 bonus"
 Aerodactyl,1,FALSE,2,142,Fossil,900,3,"Rock, Flying",Rock Head: Prevent negative effects from your own items and Pokemon
 Snorlax,1,FALSE,2,143,Regular,950,4,Normal,Belly Drum: Double your bonus. Then get rid of Snorlax [G]
-Articuno,1,FALSE,3,144,Legendary,1000,5,"Ice, Flying",Wings of Legend: Avoid any negative effect [G]
-Zapdos,1,FALSE,3,145,Legendary,1000,5,"Electric, Flying",Wings of Legend: Avoid any negative effect [G]
-Moltres,1,FALSE,3,146,Legendary,1000,5,"Fire, Flying",Wings of Legend: Avoid any negative effect [G]
+Articuno,1,FALSE,3,144,Legendary,1000,5,"Ice, Flying",Birds of a Feather: Avoid any negative effect. A negative effect can be anything that goes against you [G]
+Zapdos,1,FALSE,3,145,Legendary,1000,5,"Electric, Flying",Birds of a Feather: Avoid any negative effect. A negative effect can be anything that goes against you [G]
+Moltres,1,FALSE,3,146,Legendary,1000,5,"Fire, Flying",Birds of a Feather: Avoid any negative effect. A negative effect can be anything that goes against you [G]
 Dratini,1,TRUE,0,147,Pseudo-Legendary,250,1,Dragon,Dragon Dance: Roll 1d4 and do a little dancy dance. Gain +x to your next roll
 Dragonair,2,TRUE,1,148,Pseudo-Legendary,600,2,Dragon,Dragon Dance: Roll 1d4 and do a little dancy dance. Gain +x to your next roll
 Dragonite,3,FALSE,2,149,Pseudo-Legendary,1000,4,"Dragon, Flying",Dragon Dance: Roll 1d4 and do a little dancy dance. Gain +x to your next roll
-Mewtwo,1,FALSE,3,150,Legendary,1500,6,Psychic,MeowTastic: Level-Up (you can't win with this) [G]
-Mew,1,FALSE,3,151,Mythical,1750,6,Psychic,MewTastic: Level-Up (you can win with this) [G]
+Mewtwo,1,FALSE,3,150,Legendary,1500,6,Psychic,Psystrike: Control a player's entire round (No selling and discarding cards) [G]
+Mew,1,FALSE,3,151,Mythical,1750,6,Psychic,MewTastic: You can win on any Level-up
