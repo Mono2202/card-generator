@@ -62,7 +62,7 @@ class MunchkinCard(Card):
             size=(425, 425),
             position_percent=(0.5, 0.08)
         ))
-        
+
         if output_name == "":
             output_name = card_title
 
