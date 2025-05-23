@@ -3,7 +3,7 @@ import os.path
 from notion_api import NotionAPI
 from pokemon_munchkin_card import PokemonMunchkinCard
 
-NOTION_API_KEY = "***REMOVED***"
+NOTION_API_KEY = ""
 MUNCHKIN_DATABASE_ID = "1a37727e907e80b6ba2bf257adc9c682" # TODO: change to command line argument
 
 MUNCHKIN_POKEMON_TYPES = {
